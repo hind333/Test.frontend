@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.showcase{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    min-width: 100vh; 
+    padding: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(Join.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer
+}
+.showcase video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 200%;
+    height: 250%;
+object-fit: cover;
+opacity: 1;
+}
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%; 
+}
+.text{
+    position: absolute;
+    z-index: 100;
+}
+.text p2{
+    color: rgb(11, 41, 11);
+    position: absolute;
+}
+.text h2{
+    display: flex;
+    font-size: 45px;
+}
+input[type=account] {
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    padding: 8px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 220px 5px 15px 300px;
+}
+input[type=text2]{
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    padding: 8px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 220px 5px 15px 100px; 
+}
+input[type=password]{
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    width: 30%;
+    padding: 11px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 165px 5px 15px 100px; 
+}
+input[type=email]{
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    width: 30%;
+    padding: 11px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 120px 5px 15px 100px;   
+}
+input[type=text1]{
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    padding: 8px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 75px 5px 15px 300px;
+}
+input[type=text]{
+    position: fixed;
+    border: none ;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(25, 92, 25);
+    padding: 8px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    margin: 75px 5px 15px 100px;   
+}
